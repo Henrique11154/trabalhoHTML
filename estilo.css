@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-image: url(ArgusTemplate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#site{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-area: "topo topo"
+    "meio meio";
+}
+
+p{
+    color: black;
+    border: 1px solid;
+    margin: 2em;
+    box-shadow: 5px 10px 30px white;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    grid-area: "meio";
+    padding: 2em;
+    font-size: 30px;
+}
+
+a{
+    display: inline-block;
+    margin: 1em;
+    grid-area: "topo";
+}
+
+h1{
+    color: #FF8890;
+    margin: 0.5em 1em;
+}
+
+#exclusivo{
+    grid-area: "topo";
+}
+
+.menu{
+    color: black;
+    background-color: #FF8890;
+}
