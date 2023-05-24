@@ -11,30 +11,24 @@ body{
     height: 100%;
     display: grid;
     grid-template-columns: auto;
-    grid-area: "topo topo"
-    "meio meio";
+    grid-template-areas:
+    'menu'
+    'site'
+    'rodape'
+    ;
 }
 
-p{
+#texto{
     color: rgb(231, 226, 199);
     border: 1px solid;
-    margin: 2em;
     box-shadow: 10px 3px 10px black;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 90%;
-    grid-area: "meio";
-    padding: 2em;
-    font-size: 30px;
-}
-
-h1{
-    color: rgb(52,63,57);
-    margin: 0.5em 1em;
-    grid-area: "topo";
-}
-
-#textoInicial{
-    grid-area: "topo";
+    height: 89%;
+    margin: 2em;
+    width: auto;
+    grid-area: site;
+    font-size: 25px;
+    padding: auto;
 }
 
 .menu{
@@ -42,5 +36,18 @@ h1{
     background-color: rgb(65, 79, 71);
     display: inline-block;
     margin: 1em;
-    grid-area: "topo";
+    grid-area: menu;
+}
+
+#rodape{
+    grid-area: rodape;
+    margin: 200px 2em 0px 2em;
+    margin-left: 2em;
+    border: 1px solid rgb(32, 42, 37);
+    background-color: rgb(32, 42, 37, 0.8);
+    padding: 1em;
+}
+
+#rodape p{
+    text-align: center;
 }
