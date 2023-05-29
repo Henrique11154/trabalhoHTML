@@ -3,7 +3,6 @@ body{
     background-image: url(SoC1.png);
     background-repeat: no-repeat;
     background-size: 100%;
-
 }
 
 #site{
@@ -13,7 +12,7 @@ body{
     grid-template-columns: auto;
     grid-template-areas:
     'menu'
-    'site'
+    'meio'
     'rodape'
     ;
 }
@@ -26,28 +25,42 @@ body{
     height: 89%;
     margin: 2em;
     width: auto;
-    grid-area: site;
+    grid-area: meio;
     font-size: 25px;
-    padding: auto;
+    padding: 0em 1em;
+    font-style: Bold;
 }
 
 .menu{
     color: rgb(211, 213, 189);
     background-color: rgb(65, 79, 71);
     display: inline-block;
-    margin: 1em;
+    margin: 1em 0.5em;
     grid-area: menu;
+}
+
+#topo h1{
+    color: rgb(65, 79, 71);
 }
 
 #rodape{
     grid-area: rodape;
-    margin: 200px 2em 0px 2em;
-    margin-left: 2em;
+    margin: 105px 0em 0px 0em;
     border: 1px solid rgb(32, 42, 37);
-    background-color: rgb(32, 42, 37, 0.8);
-    padding: 1em;
+    background-color: rgb(32, 42, 37, 0.9);
+    padding: 0.2em;
 }
 
 #rodape p{
-    text-align: center;
+    margin-left: 1em;
+    color: rgb(211, 213, 189);
+}
+
+h1{
+    color: rgb(211, 213, 189);
+    margin: 2px 15px;
+}
+
+#rodape a{
+    color: bisque;
 }
