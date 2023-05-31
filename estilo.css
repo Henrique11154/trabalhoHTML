@@ -2,7 +2,7 @@ body{
     margin: 0;
     background-image: url(SoC1.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #site{
@@ -27,7 +27,7 @@ body{
     width: auto;
     grid-area: meio;
     font-size: 25px;
-    padding: 0em 1em;
+    padding: 0.4em 1em;
     font-style: Bold;
 }
 
