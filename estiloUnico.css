@@ -1,0 +1,17 @@
+a{
+    color: rgb(231, 226, 199);
+}
+img{
+    height: 10em;
+    width: 15em;
+}
+
+#imagem{
+    margin-left: 800px;
+    margin-top: -230px;
+}
+
+#texto{
+    text-align: justify;
+    
+}
