@@ -22,7 +22,7 @@ body{
     border: 1px solid;
     box-shadow: 10px 3px 10px black;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 89%;
+    height: auto;
     margin: 2em;
     width: auto;
     grid-area: meio;

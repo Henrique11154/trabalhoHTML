@@ -13,10 +13,13 @@
     'area1 imagem2 imagem2';
     padding: 1em;
 }
+a{
+    color: rgb(231, 226, 199);
+}
 
 img{
     height: 16em;
     width: auto;
-    padding: 0em 0.7em;
+    padding: 0.5em 0.7em;
     width: 30em;
 }
