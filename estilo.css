@@ -8,13 +8,9 @@ body{
 #site{
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-areas:
-    'menu'
-    'meio'
-    'rodape'
-    ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #texto{
@@ -25,11 +21,11 @@ body{
     height: auto;
     margin: 2em;
     width: auto;
-    grid-area: meio;
     font-size: 25px;
     padding: 0.4em 1em;
     font-style: Bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-grow: 1;
 }
 
 .menu{
@@ -37,7 +33,7 @@ body{
     background-color: rgb(65, 79, 71);
     display: inline-block;
     margin: 1em 0.5em;
-    grid-area: menu;
+    flex-grow: 1;
 }
 
 #topo h1{
@@ -45,7 +41,7 @@ body{
 }
 
 #rodape{
-    grid-area: rodape;
+    flex-grow: 1;
     margin: 105px 0em 0px 0em;
     border: 1px solid rgb(32, 42, 37);
     background-color: rgb(32, 42, 37, 0.9);
