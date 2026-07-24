@@ -1,0 +1,25 @@
+#texto h1{
+    font-size: 30px;
+}
+#texto{
+    font-size: 18px;
+    text-align: center;
+}
+
+#personagens{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    'area1 imagem2 imagem2';
+    padding: 1em;
+}
+a{
+    color: rgb(231, 226, 199);
+}
+
+img{
+    height: 16em;
+    width: auto;
+    padding: 0.5em 0.7em;
+    width: 30em;
+}

@@ -1,0 +1,18 @@
+img{
+    height: 400px;
+    width: 500px;
+    image-rendering: pixelated;
+}
+
+#texto{
+    background-color: black;
+    padding: 1em 1em;
+}
+
+#texto div{
+    border: 2px solid beige;
+}
+
+.contato{
+    display: inline;
+}

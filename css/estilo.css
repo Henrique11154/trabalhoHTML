@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-image: url(/imagens/SoC1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#site{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#texto{
+    color: rgb(231, 226, 199);
+    border: 1px solid;
+    box-shadow: 10px 3px 10px black;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    margin: 2em;
+    width: auto;
+    font-size: 25px;
+    padding: 0.4em 1em;
+    font-style: Bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-grow: 1;
+}
+
+.menu{
+    color: rgba(245, 237, 216);
+    box-shadow: 0.2em 0.2em rgb(65, 79, 71);
+    background-color: rgba(34, 52, 43);
+    display: inline-block;
+    margin: 1em 0.5em;
+    flex-grow: 1;
+}
+
+#topo h1{
+    color: rgb(65, 79, 71);
+}
+
+#rodape{
+    flex-grow: 1;
+    margin: 105px 0em 0px 0em;
+    border: 1px solid rgb(32, 42, 37);
+    background-color: rgb(32, 42, 37, 0.9);
+    padding: 0.2em;
+}
+
+#rodape p{
+    margin-left: 1em;
+    color: rgb(211, 213, 189);
+}
+
+h1{
+    color: rgb(211, 213, 189);
+    margin: 2px 15px;
+}
+
+#rodape a{
+    color: bisque;
+}
