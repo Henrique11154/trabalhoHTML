@@ -9,7 +9,6 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -21,11 +20,9 @@ body{
     height: auto;
     margin: 2em;
     width: auto;
-    font-size: 25px;
+    font-size: 1.3em;
     padding: 0.4em 1em;
-    font-style: Bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    flex-grow: 1;
 }
 
 .menu{
@@ -34,7 +31,6 @@ body{
     background-color: rgba(34, 52, 43);
     display: inline-block;
     margin: 1em 0.5em;
-    flex-grow: 1;
 }
 
 #topo h1{
@@ -42,7 +38,6 @@ body{
 }
 
 #rodape{
-    flex-grow: 1;
     margin: 105px 0em 0px 0em;
     border: 1px solid rgb(32, 42, 37);
     background-color: rgb(32, 42, 37, 0.9);
@@ -61,4 +56,30 @@ h1{
 
 #rodape a{
     color: bisque;
+}
+
+@media (max-width: 360px){
+    #texto{
+        margin: 0.5em 0.3em;
+        font-size: 1.1em;
+    }
+    #topo{
+        font-size: 1em;
+    }
+    #rodape{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px){
+    #texto{
+        margin: 0.5em 1em;
+        font-size: 1.6em;
+    }
+    #topo{
+        font-size: 1em;
+    }
+    #rodape{
+        font-size: 1.2em;
+    }
 }
