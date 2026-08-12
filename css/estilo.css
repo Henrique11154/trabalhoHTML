@@ -26,7 +26,7 @@ body{
 }
 
 .menu{
-    color: rgba(245, 237, 216);
+    color: rgb(245, 237, 216);
     box-shadow: 0.2em 0.2em rgb(65, 79, 71);
     background-color: rgba(34, 52, 43);
     display: inline-block;
