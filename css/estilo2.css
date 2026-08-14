@@ -1,8 +1,8 @@
 #texto h1{
-    font-size: 30px;
+    font-size: 2em;
 }
 #texto{
-    font-size: 18px;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -11,15 +11,28 @@
     grid-template-columns: auto;
     grid-template-areas: 
     'area1 imagem2 imagem2';
-    padding: 1em;
 }
 a{
     color: rgb(231, 226, 199);
 }
 
-img{
+.imagem{
     height: 16em;
-    width: auto;
-    padding: 0.5em 0.7em;
     width: 30em;
+    image-rendering: pixelated;
+    padding: 0.6em 0.3em;
+}
+
+@media (max-width: 768px){
+    .imagem{
+        height: 10em;
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px){
+    .imagem{
+        height: 6em;
+        width: 100%;
+    }
 }
